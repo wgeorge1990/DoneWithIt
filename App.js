@@ -20,7 +20,7 @@ export default function App() {
     }}
   >
     <AppText>
-      I LOVE REACT NATIVE
+      I LOVE REACT NATIVE!
     </AppText>
     <MaterialCommunityIcons name="email" size={40} color="blue"/>
   </View>
