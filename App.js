@@ -5,6 +5,7 @@ import { View, Text } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons'
 
 import AppText from './app/components/AppText';
+import AppButton from './app/components/AppButton';
 
 export default function App() {
   
@@ -19,10 +20,7 @@ export default function App() {
       alignItems: "center"
     }}
   >
-    <AppText>
-      I LOVE REACT NATIVE!
-    </AppText>
-    <MaterialCommunityIcons name="email" size={40} color="blue"/>
+    <AppButton title="Login" onPress={() => console.log("tapped")}></AppButton>
   </View>
 
   );
